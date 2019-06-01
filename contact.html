@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>麵包店網站 - 麵包的故事</title>
+    <style>
+        html {
+            background: rgba(0, 0, 0, 0.3);
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+            <span id="logo"><a href="index.html">B Shop</a></span>
+            <ul>
+                <li><a href="about.html">關於 B Shop</a></li>
+                <li><a href="product.html">商品</a></li>
+                <li><a href="#">聯絡 B Shop</a></li>
+            </ul>
+        </div>
+        <form>
+            <label for="name">姓名</label>
+            <input type="text" id="name" placeholder="請輸入您的姓名" required>
+            <label for="email">信箱</label>
+            <input type="email" id="email" placeholder="請輸入您的信箱" required>
+            <label for="message">留言或者建議</label>
+            <textarea name="message" id="" cols="30" rows="10" required></textarea>
+            <div class="button">
+                <input type="reset" value="重新輸入">
+                <input type="submit" value="確認送出">
+            </div>
+        </form>
+    </div>
+    <div class="footer">B Shop &copy; 2019</div>
+    <hr>
+</body>
+</html>

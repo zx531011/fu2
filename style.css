@@ -150,3 +150,10 @@ body {
 .bakery2 {
     background-image: url(bakery2.jpg);
 }
+
+/* 表單 */
+
+/* 去除廣告 */
+img[alt="www.000webhost.com"] {
+    display: none;
+}
